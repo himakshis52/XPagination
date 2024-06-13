@@ -1,0 +1,46 @@
+/* Table.css */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: rgb(26, 156, 43);
+  }
+    
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  button {
+    border: 0;
+    padding: 0 20px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: rgb(26, 156, 43);
+    border-radius: 8px;
+    inline-size: none;
+  }
+  
+  button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+
+  span{
+    padding: 20px;
+    background-color: rgb(26, 156, 43);
+    margin: 0 10px;
+    border-radius: 8px;
+  }
+  
