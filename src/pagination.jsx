@@ -15,7 +15,7 @@ const Pagination = () => {
             fetch(URL)
                 .then((res) => res.json())
                 .then((data) => setPageContent(data))
-                .catch((e) => console.error("Error in fetching data", e))
+                .catch((e) => alert('Failed to fetch data'));
     },[] )
 
     console.log(pageContent);
